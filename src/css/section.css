@@ -1,0 +1,106 @@
+.apresentacao{
+    display: grid;
+    justify-content: center;
+    margin-top: 32vh;
+    font-size: 3.0rem;
+    font-weight: 600;
+    text-align: center;
+}
+.apresentacao #pp1{
+    position: relative;
+    top: 10px;
+    font-size: 18px;
+}
+#titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 70vh;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #000000;
+    transition: 0.5s;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: -10px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 13vh;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+button {
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #46494c;
+    border-color: transparent;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+    transition: 0.9s;
+}
+button:hover {
+    transform: scale(1.1);
+    background-color: #e71d36;
+    rotate: 360deg;
+}
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35%;
+    margin-bottom: 60%;
+    border-bottom: 15px solid #f1eeef;
+}
+#sobre-mim{
+    display: flex;
+    justify-content: center;
+    margin-top: 30vh;
+    margin-bottom: 5vh;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #333533;
+    transition: 0.5s;
+}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+    margin-right: 300px;
+    margin-top: 0px;
+}
+.conteudoSobre1 , .conteudoSobre2, .conteudoSobre3{
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    width: 30%;
+    margin: 10px;
+    color: #333533;
+    font-weight: 400;
+}
+.conteudoSobre4{
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 55%;
+}
